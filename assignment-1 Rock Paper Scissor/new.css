@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(16, 16, 16);
+    margin: 0px;
+}
+header{
+    background-color: white;
+    margin: 0px;
+    font-size: 40px;
+    
+}
+h2,h3{
+    color: white;
+    font-size: 30px;
+}
+header,h2,h3{
+    text-align: center;
+}
+div{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.sign{
+    
+    
+    margin: 20px;
+    
+}
+.move{
+    display: block;
+    font-size: 25px;
+    width: 200px;
+    margin:auto;
+
+}
+    
+
