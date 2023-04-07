@@ -6,16 +6,22 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="RPS.css">
-    
+    <script src="RPS.js"></script>    
 </head>
 <body>
   <header>Rock Paper Scissor</header>
-  <fieldset><span class="border left">user</span>0 : 0<span class="border right">comp</span></fieldset>
-  <h2>paper covers rock, You win!</h2>
+  <fieldset>
+    <span class="border left">user</span>
+      <span class="user">0</span> : <span class="comp">0</span>
+    <span class="border right">comp</span>
+  </fieldset>
+  <h2 class="res">paper covers rock, You win!</h2>
+  <h3 style="color:aqua">Computer option ::<span class="compOpt"></span></h3>
+  <h3 style="color:green">User option ::<span class="userOpt"></span></h3>
   <div>
-    <button class="sign"><img src="https://i0.wp.com/wrpsa.com/wp-content/uploads/2021/08/rock.png?resize=200%2C187&ssl=1" alt=""></button>
-    <button class="sign"><img src="https://i0.wp.com/wrpsa.com/wp-content/uploads/2021/08/paper.png?resize=200%2C187&ssl=1" alt=""></button>
-    <button class="sign"><img src="https://i0.wp.com/wrpsa.com/wp-content/uploads/2021/08/scissors.png?resize=200%2C187&ssl=1" alt=""></button>
+    <button onclick="userTurn(0)" class="sign"><img src="https://i0.wp.com/wrpsa.com/wp-content/uploads/2021/08/rock.png?resize=200%2C187&ssl=1" alt=""></button>
+    <button onclick="userTurn(1)" class="sign"><img src="https://i0.wp.com/wrpsa.com/wp-content/uploads/2021/08/paper.png?resize=200%2C187&ssl=1" alt=""></button>
+    <button onclick="userTurn(2)" class="sign"><img src="https://i0.wp.com/wrpsa.com/wp-content/uploads/2021/08/scissors.png?resize=200%2C187&ssl=1" alt=""></button>
   </div>
   
   <button class="move">Make your move</button>
