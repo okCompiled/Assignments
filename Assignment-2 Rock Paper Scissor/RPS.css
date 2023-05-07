@@ -22,8 +22,6 @@ div{
 }
 
 .sign{
-    
-    
     margin: 20px;
     
 }
@@ -33,6 +31,29 @@ div{
     width: 200px;
     margin:auto;
 
+}
+fieldset{
+    color: white;
+    display: block;
+    width: 200px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    padding: 2px;
+    font-size: 35px;
+}
+.border{
+    background-color: red;
+    color: white;
+    position: relative;
+    font-size: 20px;
+
+}
+.left{
+    left: -50px;
+}
+.right{
+    left: 60px;
 }
     
 

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script> 
+    <script defer src="script.js"></script>
+</head>
+<body class="bg-blue-200">
+<div class="border-solid border-8 border-black text-center container m-auto my-56 bg-blue-300" style="height: 50%; width:40%; ">
+        <h1 class="text-900 block text-5xl font-serif py-2">Todo List</h1>
+        <div class="flex justify-center block"><input class="border-solid" type="text" name="" id="addText">
+            <button class="border-solid border-2 border-black mx-2 p-2" id="add" onclick="addList()">Add<button>
+            <button class="hide border-solid border-2 border-black mx-2 p-2" id="edit" onclick="editText()">Edit</button></div>
+        <div >
+            <ul id="listContainer" class="list-disc w-3/6 m-auto mb-2">
+                <li>Default List</li>
+                <li>Default List</li>
+            </ul>
+        </div>
+    </div>
+    
+</body>
+</html>
